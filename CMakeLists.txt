@@ -6,7 +6,6 @@ find_package(Protobuf REQUIRED)
 
 add_subdirectory(baseproto)
 include_directories(${CMAKE_CURRENT_BINARY_DIR}/baseproto)
-link_libraries(baseproto)
 
 
 
